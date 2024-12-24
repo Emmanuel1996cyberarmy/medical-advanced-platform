@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, Search, Bell, ChevronDown } from "lucide-react";
 import chat from "../assets/chat.png";
-import avatars from "../assets/avatars.png";
+import avatars from "../assets/Avatars.png";
 import Sidebar from "./Sidebar";
 
 const QuoteLayout = ({ children }) => {
