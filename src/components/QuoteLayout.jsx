@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, Search, Bell, ChevronDown } from "lucide-react";
-import chatIcon from "../assets/chat.png";
-import avatar from "../assets/avatars.png";
+import chat from "../assets/chat.png";
+import avatars from "../assets/avatars.png";
 import Sidebar from "./Sidebar";
 
 const QuoteLayout = ({ children }) => {
@@ -64,12 +64,12 @@ const QuoteLayout = ({ children }) => {
                 <div className="flex items-center gap-4">
                   <Bell className="text-gray-600 cursor-pointer hover:text-gray-800" />
                   <img
-                    src={chatIcon}
+                    src={chat}
                     alt="Chat Icon"
                     className="text-gray-600 cursor-pointer hover:text-gray-800"
                   />
                   <div className="flex items-center cursor-pointer">
-                    <img src={avatar} className="w-8 h-8 rounded-full " />
+                    <img src={avatars} className="w-8 h-8 rounded-full " />
                     <span>
                       <ChevronDown className="text-gray-600" />
                     </span>
